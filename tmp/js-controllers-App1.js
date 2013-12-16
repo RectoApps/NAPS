@@ -1,0 +1,1 @@
+ function App1Cntl($scope,$resource){var mySqlResult=$resource('/data/',params:{id:2});$scope.users=mySqlResult.query();}

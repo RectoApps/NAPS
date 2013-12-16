@@ -1,0 +1,10 @@
+App 1: Path: Content/templates
+<hr/>
+Below a list of users: {{users}}
+<hr/>
+<div>
+    <div ng-repeat="user in users">
+        [{{$index + 1}}] useid: {{user.idusers}}, user name: {{user.name}} <a href="/data" ng-click="hello(user.idusers)">edit</a>
+        <hr>
+    </div>
+</div>
